@@ -1,0 +1,403 @@
+/* Общее содержимое */
+html, body
+{
+	background-color: #212121;
+	color: #698CC0;
+	font-family: sans-serif;
+}
+h1
+{
+	font-weight: bold;
+	color: #FFAB3F;
+}
+h3
+{
+    
+}
+hr
+{
+	height: 3px;
+	border-width: 0px;
+	background: url("line.png") center no-repeat;
+}
+rect
+{
+	stroke:black;
+	stroke-width:3;
+	border-radius: 5;
+}
+div.aside
+{
+	float: left;
+	display: inline-block;
+	position: fixed;
+	height: 100%;
+	padding: .25em;
+	margin: .25em .25em .25em .25em;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+div.article
+{
+	margin-left: 13em;
+}
+div.mnuHorizontal
+{
+}
+ul.navvertical /* Вертикальное меню, которое слева */
+{
+    list-style-type: none;
+    padding: 0.25em 0 0.25em 0;
+    margin: 0.25em 0 0.25em 0;
+}
+ul.navvertical li /* Пункт внутри вертикального меню */
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0.25em 0 0.25em 0;
+}
+ul.navvertical li ul /* Меню внутри пункта вертикального меню */
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+p.footer
+{
+	text-align: center;
+	font-size: smaller;
+}
+
+/* Элементы управления */
+textarea, select
+{
+	box-sizing: content-box;
+	appearance: none;
+	background-color: #111111;
+	color: #CCCCCC;
+	border: 2px solid #545454;
+	border-radius: 0.25em;
+}
+textarea:hover, textarea:focus, select:hover, select:focus
+{
+	background-color: #151515;
+	color: #EEEEEE;
+}
+input[type="password"], select[name=embedtype], input[type="file"], input[type="image"]
+{
+	box-sizing: content-box;
+	appearance: none;
+	color: #BBBBBB;
+	border: 2px solid #545454;
+	background-color: #111111;
+}
+input[type="file"], input[type="image"]
+{
+	border-radius: 0.25em;
+}
+input[type="text"]
+{
+	box-sizing: content-box;
+	appearance: none;
+	background-color: #111111;
+	color: #FFFFFF;
+	border: 2px solid #545454;
+	border-radius: 0.25em;
+}
+input:hover[type="text"], input:focus[type="text"]
+{
+	background-color: #151515;
+	color: #AAAAFF;
+}
+.but
+{
+	color: white;
+	background-color: #111111;
+	border: 2px solid #545454;
+}
+
+/* Виды ссылок */
+a
+{
+	color: #C9BE89;
+	margin: 0.25em 0.25em 0.25em 0.25em;
+}
+a:hover
+{
+	color: #EEFEBB;
+}
+a.navhorizontal /* Горизонтальное меню, которое справа */
+{
+}
+a.navvertical /* Вертикальное меню, которое слева */
+{
+	display: block;
+}
+.externallink
+{
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.reflink a:hover
+{
+	color: #800000;
+}
+.reflink a
+{
+	color: inherit;
+	text-decoration: none;
+}
+a[href$=sage], a[href$=Sage], a[href$=SAGE]
+{
+	color: #993333;
+	text-shadow: #000 0px 0px 5px;
+}
+a[href$=sage]:before, a[href$=Sage]:before, a[href$=SAGE]:before
+{
+	content: "[sage] ";
+}
+a:hover[href$=sage], a:hover[href$=Sage], a:hover[href$=SAGE]
+{
+	color: #CC1212;
+	text-shadow: black 0px 0px 5px;
+}
+
+/* Блок создания треда */
+div.theader /* Заголовок треда */
+{
+	background: #2C2C2C;
+	text-align: center;
+	padding: .25em;
+	margin: .25em;
+	color: #006AB9;
+	font-weight: bold;
+	border: solid 1px #575757;
+	border-radius: 5px;
+}
+div.postarea
+{
+	padding: .5em 0.25em 0.5em 0.25em;
+	margin: .5em 0.25em 0.5em 0.25em;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+div.postblock
+{
+	font-weight: bold;
+	padding: 0.25em 0 0.25em 0;
+	margin: 0.25em 0 0.25em 0;
+	display: inline-block;
+	width: 8em;
+	background: transparent;
+	color: #0061AA;
+}
+div.postbuttons /* Ячейка с формами */
+{
+	padding: 0.25em 0 0.25em 0;
+	margin: 0.25em 0 0.25em 0;
+	display: inline-block;
+}
+ul.rules
+{
+	font-size: smaller;
+}
+ul.rules ul li strong
+{
+	color: #993333;
+}
+
+/* Капча */
+div.captcha
+{
+	display: inline-block;
+}
+div.captchaimage /* Картинка */
+{
+	display: block;
+}
+div.captchainputtext /* Поле для ввода символов */
+{
+	display: block;
+}
+
+/* Заголовки сообщения */
+div.thread /* Тред */
+{
+	margin: 0.5em 0 0.5em 0;
+}
+div.oppost /* Первое сообщение в треде */
+{
+	display: table;
+	margin: 0.5em 0.25em 0.5em 0.25em;
+}
+div.reply /* Ответ */
+{
+	display: table;
+	background: url("lightning.png") right bottom no-repeat;
+	background-color: #2C2C2C;
+	color: #698CC0;
+	border: solid 1px #575757;
+	margin: 0.5em 0.25em 0.5em 0.25em;
+	padding: 0px;
+	border-radius: 0.25em;
+}
+div.msghead /* Заголовок комментария */
+{
+}
+div.fileblock /* Блок с файлами */
+{
+	display: inline-block;
+	margin-right: 1em;
+	vertical-align: top;
+	float: left;
+}
+div.msgbody /* Комментарий */
+{
+	display: inline;
+}
+div.answers /* Блок с ответами на сообщение */
+{
+	display: block;
+	padding: 0.25em 0.25em 0.25em 0.25em;
+}
+.reflink
+{
+	font-size: smaller;
+	font-weight: bold;
+}
+.reflink a
+{
+	color: #C9BE89;
+}
+span.filesize
+{
+	margin-left: 20px;
+	background-color: #212121;
+	border: solid 1px #575757;
+	padding: 2px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #999999;
+	font-size: smaller;
+}
+span.filesize a
+{
+	color: #789922;
+}
+span.filetitle
+{
+	background: inherit;
+	font-size: larger;
+	color: #3941AC;
+	font-weight: bold;
+}
+span.postername
+{
+	color: #B4B9CD;
+	font-weight: bold;
+}
+span.postertrip
+{
+	color: #AAFFAA;
+	font-weight: bold;
+}
+span.commentpostername
+{
+	color: #B4B9CD;
+}
+div.omittedposts
+{
+	color: #999999;
+	font-size: smaller;
+}
+span.thumbnailmsg
+{
+    display: block;
+	font-size: smaller;
+	color: #999999;
+}
+
+/* Форматирование текста в сообщении */
+.spoiler
+{
+	background: #575757;
+	color: #575757;
+}
+span.spoiler:hover
+{
+	color: #48B0FD;
+}
+.monospace
+{
+	font-family: monospace;
+}
+.underline
+{
+	text-decoration: underline;
+}
+.strike
+{
+	text-decoration: line-through;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.unkfunc
+{
+	background: inherit;
+	color: #789922;
+}
+.u
+{
+	text-decoration: underline;
+}
+.s
+{
+	text-decoration: line-through;
+}
+.o
+{
+	text-decoration: overline;
+}
+
+/* Исходный код */
+div.codebox
+{
+	padding: 3px;
+	border: 1px solid;
+}
+div.codebox div
+{
+	border-bottom: 1px solid;
+	margin-bottom: 3px;
+	font-weight: bold;
+	display: block;
+}
+div.codebox code
+{
+	overflow: auto;
+	display: block;
+	height: auto;
+	max-height: 200px;
+	white-space: normal;
+	padding-top: 0.25em;
+	margin: 0.1em;
+	background: #2C2C2C;
+	color: #CCCCCC;
+}
+
+/* Блок навигации и удаления тредов */
+div.navigationanddelete
+{
+}
+div.navigatorblock
+{
+}
+div.pagenavigator
+{
+}

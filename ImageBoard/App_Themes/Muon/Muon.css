@@ -1,0 +1,624 @@
+﻿.postarea
+{
+	text-align: center;
+}
+.postarea table
+{
+	margin: 0px auto;
+	text-align: left;
+}
+.thumb
+{
+	border: none;
+	float: left;
+	margin: 2px 20px;
+}
+.nothumb
+{
+	float: left;
+	border: 2px dashed #aaa;
+	text-align: center;
+	margin: 2px 20px;
+	padding: 1em 0.5em 1em 0.5em;
+}
+.reply blockquote, blockquote :last-child
+{
+	margin-bottom: 0em;
+}
+.reflink a
+{
+	color: inherit;
+	text-decoration: none;
+}
+.reflink a:hover
+{
+	color: #800000;
+}
+.reply .filesize
+{
+	margin-left: 20px;
+}
+.userdelete
+{
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+.replypage .replylink
+{
+	display: none;
+}
+.pagelist
+{
+	max-width: 600px;
+}
+.spoiler
+{
+	color: black;
+	background-color: black;
+}
+.monospace
+{
+	font-family: monospace;
+}
+.underline
+{
+	text-decoration: underline;
+}
+.strike
+{
+	text-decoration: line-through;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.blockquote
+{
+	margin: 2px 20px;
+}
+.postblock
+{
+	font-weight: bold;
+}
+.logo
+{
+	font-weight: bold;
+}
+.externallink
+{
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 11px;
+}
+dl.codebox
+{
+	padding: 3px;
+	border: 1px solid;
+}
+dl.codebox dt
+{
+	border-bottom: 1px solid;
+	margin-bottom: 3px;
+	font-weight: bold;
+	display: block;
+}
+dl.codebox code
+{
+	overflow: auto;
+	display: block;
+	height: auto;
+	max-height: 200px;
+	white-space: normal;
+	padding-top: 5px;
+	margin: 2px 0;
+}
+td.topvalign
+{
+	vertical-align: top;
+}
+.footer
+{
+	text-align: center;
+	font-size: smaller;
+}
+h3
+{
+	text-align: right;
+}
+rect
+{
+	stroke:black;
+	stroke-width:3;
+	border-radius: 5;
+}
+td.aside
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 10px;
+}
+td.article
+{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+td.baseline
+{
+	vertical-align:bottom;
+}
+html, body
+{
+	background: scroll #211F1A url("muon_bg.jpg") repeat;
+	color: #9B8165;
+	font-family: sans-serif;
+}
+form
+{
+	font-size: smaller;
+}
+a, #adminbar ul.menu ul li a, .rmenu a
+{
+	color: #FFD97A;
+	text-decoration: none;
+	padding: 0px;
+	transition: all 0.3s ease;
+}
+a:hover, #adminbar ul.menu ul li a:hover, .rmenu a:hover
+{
+	color: #FCE236;
+	text-shadow: #FCE236 0px 0px 10px;
+}
+#adminbar ul.menu ul li a
+{
+	text-decoration: underline;
+	padding: 0 2px;
+}
+.adminbar
+{
+	text-align: right;
+	background: inherit;
+	clear: both;
+	float: right;
+	line-height: 17px;
+	font-size: smaller;
+}
+.adminbar a
+{
+	font-weight: normal;
+	color: #B5935F;
+}
+.logo
+{
+	clear: both;
+	text-align: left;
+	font-size: larger;
+	color: #ECCA74; 
+}
+.logo2
+{
+	text-align: center;
+}
+.theader, .passvalid
+{
+	background: url("muon_inputs.jpg") #161616;
+	text-align: center;
+	padding: 2px;
+	color: #757575;
+	clear: both;
+	font-weight: bold;
+	margin: .5em 0;
+	border: solid 1px #9B8165;
+	box-shadow: 0 0 4px rgba(155,129,101,0.7);
+	border-radius: 5px;
+}
+.postarea
+{
+	font-size: smaller;
+}
+.rules
+{
+	font-size: smaller;
+}
+.postblock, .form-tbl p
+{
+	background: transparent;
+	color: #5E5E5E;
+	font-weight: bold;
+}
+#dynamicNamed
+{
+	margin-right: 0.5em;
+	padding: 0.1em 0.2em;
+}
+.footer a
+{
+	color: #9B8165;
+}
+.dellist
+{
+	font-weight: bold;
+	text-align: center;
+}
+.delbuttons
+{
+	text-align: center;
+	padding-bottom: 4px;
+}
+.managehead
+{
+	background: #9B8165;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: larger;
+	padding: 0px;
+}
+.postlists
+{
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0px;
+	color: #000000;
+}
+.row1
+{
+	background: #B5935F;
+	color: #000000;
+}
+.row2
+{
+	background: #ECCA74;
+	color: #000000;
+}
+.row1 a, .row2 a
+{
+	color: #115011;
+}
+.row1 a:hover, .row2 a:hover
+{
+	text-shadow: none;
+}
+.unkfunc
+{
+	background: inherit;
+	color: #C1B387;
+}
+.reflink
+{
+	font-size: smaller;
+	font-weight: bold;
+}
+.filesize
+{
+	text-decoration: none;
+	color: #5E5E5E;
+	font-size: smaller;
+}
+.filesize a
+{
+	margin: 0 .5em;
+}
+.filetitle
+{
+	background: inherit;
+	font-size: larger;
+	color: #FFC17B;
+	font-weight: bold;
+}
+hr
+{
+	height: 3px;
+	border: 0;
+	background: url("muon_line.png") center no-repeat;
+	background-size: 100% 100%;
+}
+a.highslide img
+{
+	visibility: hidden;
+	width: 1px;
+}
+a.highslide:before
+{
+	content: url( "inc_neut.png" );
+	visibility: visible;
+	position: relative;
+	top: 2px;
+}
+.highslide-loading
+{
+	background-color: #212121;
+	border: 1px dotted black;
+}
+.postername, .commentpostername
+{
+	color: #9B8165;
+	font-weight: bold;
+}
+.postertrip
+{
+	color: #896541;
+	font-weight: bold;
+}
+.oldpost, .notabene
+{
+	font-family: serif;
+	color: #0F0C5D;
+	font-weight: bold;
+}
+.omittedposts
+{
+	color: #896640;
+}
+.reply
+{
+	color: #C6985C;
+	background: url("muon_posts.jpg") #292825;
+	border: solid 1px #34352D;
+	margin: 5px 5px;
+	padding: 1px 2px 6px 2px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 12px #161616;
+}
+blockquote
+{
+	margin: .5em .5em .5em 1em;
+	line-height: 1.3em;
+}
+.reply blockquote
+{
+	margin: .5em;
+}
+.doubledash
+{
+	display: none;
+	vertical-align: top;
+	clear: both;
+	float: left;
+}
+.replytitle
+{
+	font-size: larger;
+	color: #FFC17B;
+	font-weight: bold;
+}
+.thumbnailmsg
+{
+	font-size: smaller;
+	color: #666666;
+}
+table td
+{
+	border-style: none;
+}
+.nothumb
+{
+	background: url("muon_inputs.jpg") #3E3C38;
+	border: 1px #666666 dashed;
+	margin: .3em .5em;
+}
+.abbrev
+{
+	color: #666666;
+}
+.highlight
+{
+	color: #C6985C;
+	background: #292825 url("muon_posts.jpg");
+	border: 2px dashed #725B48;
+	border-radius: 3px;
+	margin: 5px 5px;
+	padding: 1px 2px 3px 2px;
+	box-shadow: 0px 0px 12px #161616;
+}
+.extrafunctions
+{
+	color: #800000;
+}
+dl.menu dt
+{
+	background: url("muon_inputs.jpg") #3E3C38;
+	color: #757575;
+	border: solid 1px #CCCCCC;
+	border-radius: 5px;
+	margin-top: 1em;
+	padding-left: .5em;
+	cursor: pointer;
+}
+dl.menu dd
+{
+	margin-left: .5em;
+	padding-left: .5em;
+	border-left: solid 1px #CCCCCC;
+}
+dl.menu dd.hidden
+{
+	display: none;
+}
+p.spoiler > span.warning
+{
+	color: #FF6600;
+	font-weight: bolder;
+}
+span.spoiler
+{
+	background: #454545;
+	color: #454545;
+	opacity: .5;
+}
+.spoiler a
+{
+	color: #454545;
+}
+span.spoiler:hover
+{
+	color: #AEAEAE;
+	opacity: 1;
+}
+.spoiler:hover a
+{
+	color: #FCE236;
+}
+.u
+{
+	text-decoration: underline;
+}
+.s
+{
+	text-decoration: line-through;
+}
+.o
+{
+	text-decoration: overline;
+}
+span.mod
+{
+	color: #FFAB3F;
+}
+span.adm
+{
+	color: #EE0000;
+}
+.locked
+{
+	width: 50%;
+	margin: 20px;
+	text-align: center;
+	background-color: #151515;
+	border: 1px solid #242424;
+	box-shadow: rgba(155,129,101,0.7) -1px -1px 1em,rgba(155,129,101,0.7) 1px 1px 2em;
+}
+.msgheader
+{
+	background-color: #242424;
+	color: #757575;
+}
+.msg
+{
+	background-color: #333333;
+	color: #FEC77D;
+	font-size: smaller;
+}
+center > span[style*="rgb"]
+{
+	color: #857070;
+}
+div > form > select, textarea, input[type="text"], input[type="file"], input[type="password"], input[name="snum"]
+{
+	color: #FEC77D;
+	background: #3E3C38 url("muon_inputs.jpg");
+	border: 1px solid #44453D;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+div > form > select:hover, textarea:hover, input[type="text"]:hover, input[type="file"]:hover, input[type="password"]:hover, input[name="snum"]:hover
+{
+	border: 1px solid #5B5347;
+}
+div > form > select:focus, textarea:focus, input[type="text"]:focus, input[type="file"]:focus, input[type="password"]:focus, input[name="snum"]:focus
+{
+	box-shadow: 0 0 4px rgba(155,129,101,0.7);
+}
+div[id*="preview_"]
+{
+	border: solid 1px #34352D;
+}
+body.replypage
+{
+	counter-reset: postcount;
+	counter-increment: postcount;
+}
+body.replypage td.reply label:after
+{
+	counter-increment: postcount;
+	content: " " "#" counter(postcount) "  ";
+	color: #789922;
+}
+a[href="xmpp:sage"], a[href="xmpp:Sage"], a[href="xmpp:SAGE"]
+{
+	color: #AA0000;
+}
+a[href="xmpp:sage"]:hover, a[href="xmpp:Sage"]:hover, a[href="xmpp:SAGE"]:hover
+{
+	text-shadow: none;
+}
+a[href="xmpp:sage"]:before, a[href="xmpp:Sage"]:before, a[href="xmpp:SAGE"]:before
+{
+	content: url("sage.png");
+}
+::-moz-selection
+{
+	background: #FEC77D;
+	color: #111111;
+}
+::selection
+{
+	background: #FEC77D;
+	color: #111111;
+}
+pre, code
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow: auto;
+	max-width: 80em;
+	display: block;
+}
+input[type="submit"], input[type="reset"], .buttons input[type="button"]
+{
+	appearance: none;
+	background-color: #333333;
+	background-image: -moz-linear-gradient(center top,#4A4A4A,#292929,#4A4A4A);
+	background-image: -o-linear-gradient(rgb(74,74,74),rgb(41,41,41),rgb(74,74,74));
+	background-image: -webkit-gradient(linear,center top,center bottom,from(#4A4A4A),color-stop(25%,#313131),color-stop(50%,#292929),color-stop(75%,#313131),to(#4A4A4A));
+	border-radius: 5px;
+	border-bottom: 1px solid #151515;
+	border-top: 1px solid #151515;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	color: #AAAAAA;
+	font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, .buttons input[type="button"]:hover
+{
+	background-color: #212121;
+	background-image: -moz-linear-gradient(center top,#151515,#505050,#151515);
+	background-image: -o-linear-gradient(rgb(21,21,21),rgb(80,80,80),rgb(21,21,21));
+	background-image: -webkit-gradient(linear,center top,center bottom,from(#151515),color-stop(25%,#222222),color-stop(50%,#505050),color-stop(75%,#222222),to(#151515));
+	border: 1px solid #9B8165;
+	color: #FFFFCC;
+	box-shadow: inset 0 0 4px 1px #9B8165;
+}
+font[color*="2267"] em
+{
+	color: #EE0000;
+	font-weight: bold;
+}
+#oekaki-form select[name="oek_painter"], #oekaki-form input[type="text"]
+{
+	margin-right: .7em;
+}
+.filesize img[alt="edit"]
+{
+	border: 0 none;
+}
+.fileblock
+{
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+}
+.NavHorizontal
+{
+    margin: 0.2em 0.2em 0.2em 0.2em;
+}

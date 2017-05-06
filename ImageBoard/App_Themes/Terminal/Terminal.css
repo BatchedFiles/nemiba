@@ -1,0 +1,368 @@
+.postarea
+{
+	text-align: center;
+}
+.postarea table
+{
+	margin: 0px auto;
+	text-align: left;
+}
+.thumb
+{
+	border: none;
+	float: left;
+	margin: 2px 20px;
+}
+.nothumb
+{
+	float: left;
+	border: 2px dashed #aaa;
+	text-align: center;
+	margin: 2px 20px;
+	padding: 1em 0.5em 1em 0.5em;
+}
+.reply blockquote, blockquote :last-child
+{
+	margin-bottom: 0em;
+}
+.reflink a
+{
+	color: inherit;
+	text-decoration: none;
+}
+.reflink a:hover
+{
+	color: #800000;
+}
+.reply .filesize
+{
+	margin-left: 20px;
+}
+.userdelete
+{
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+.replypage .replylink
+{
+	display: none;
+}
+.pagelist
+{
+	max-width: 600px;
+}
+.spoiler
+{
+	color: black;
+	background-color: black;
+}
+.monospace
+{
+	font-family: monospace;
+}
+.underline
+{
+	text-decoration: underline;
+}
+.strike
+{
+	text-decoration: line-through;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.blockquote
+{
+	margin: 2px 20px;
+}
+.postblock
+{
+	font-weight: bold;
+}
+.logo
+{
+	font-weight: bold;
+}
+.externallink
+{
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 11px;
+}
+dl.codebox
+{
+	padding: 3px;
+	border: 1px solid;
+}
+dl.codebox dt
+{
+	border-bottom: 1px solid;
+	margin-bottom: 3px;
+	font-weight: bold;
+	display: block;
+}
+dl.codebox code
+{
+	overflow: auto;
+	display: block;
+	height: auto;
+	max-height: 200px;
+	white-space: normal;
+	padding-top: 5px;
+	margin: 2px 0;
+}
+td.topvalign
+{
+	vertical-align: top;
+}
+.footer
+{
+	text-align: center;
+	font-size: smaller;
+}
+h3
+{
+	text-align: right;
+}
+rect
+{
+	stroke: black;
+	stroke-width: 3;
+	border-radius: 5;
+}
+td.aside
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 10px;
+}
+td.article
+{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+td.baseline
+{
+	vertical-align:bottom;
+}
+html, body
+{
+	font-family: monospace;
+	background: #000084;
+	color: #FFFFFF;
+}
+hr
+{
+	clear: both;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: #FFFFFF;
+}
+input, textarea
+{
+	background-color: #C0C0C0;
+	border: 1px dotted #00AAAA;
+	color: #000505;
+}
+.thumbnailmsg
+{
+	font-size: smaller;
+	color: #808080;
+}
+.filesize
+{
+	border: 1px dotted #00AAAA;
+	color: #C0C0C0;
+	padding: 2px;
+}
+a
+{
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #FFFFFF;
+	background-color: #CC6600;
+}
+a.quotelink
+{
+	color: #CC0000;
+}
+.logo
+{
+	padding: 15px;
+	background-color: #008080;
+	text-transform: uppercase;
+	visibility: visible;
+	color: #000000;
+	margin: 10px auto 10px auto;
+}
+.postarea
+{
+	margin: 0 auto;
+}
+.top_hr
+{
+	clear: both;
+	background: inherit;
+}
+em
+{
+	text-decoration: underline;
+}
+.postblock
+{
+	border: 1px dotted #00AAAA;
+	color: #00FF00;
+	padding: 2px 5px 2px 5px;
+}
+.rules
+{
+	margin: 0px 0px 0px 25px;
+	color: #00FFFF;
+}
+.unkfunc
+{
+	color: #FF0000;
+}
+.filetitle
+{
+	color: #004080;
+	font-weight: bold;
+}
+.postername
+{
+	color: #4000FF;
+	font-weight: bold;
+}
+.postertrip
+{
+	color: #FF0000;
+}
+.but
+{
+	background: #000080;
+}
+.oldpost
+{
+	color: #C0C0C0;
+	font-weight: 800;
+}
+.omittedposts
+{
+	color: #00CCCC;
+}
+.reply
+{
+	color: #C0C0C0;
+	border: 1px dotted #00AAAA;
+}
+.replyhl
+{
+	background: #004040;
+	color: #FF0000;
+}
+.doubledash
+{
+	vertical-align: top;
+	clear: both;
+	float: left;
+}
+.replytitle
+{
+	font-size: smaller;
+	color: #00CCCC;
+	font-weight: bold;
+}
+.commentpostername
+{
+	font-size: smaller;
+	color: #FF0000;
+	font-weight: bold;
+}
+a.quotejs
+{
+	color: #FF0000;
+	text-decoration: none;
+}
+a.quotejs:hover
+{
+	font-weight: bold;
+}
+.highlight
+{
+	background: #003030;
+	color: #00FFFF;
+	border: 2px dashed #FF0000;
+}
+.adminbar
+{
+	padding: 13px 30px 13px 8px;
+	text-align: right;
+	float: right;
+}
+.theader, .passvalid
+{
+	margin: 10px auto 10px auto;
+	padding: 15px;
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+	border: solid 2px #00CCCC;
+}
+.spoiler
+{
+	background: #00CCCC;
+	color: #00CCCC;
+}
+.spoiler blockquote
+{
+	background: #00CCCC;
+	color: #00CCCC;
+}
+.spoiler:hover
+{
+	background: #004040;
+	color: #00CCCC;
+}
+.spoiler blockquote:hover
+{
+	color: #009922;
+}
+.spoiler blockquote blockquote:hover
+{
+	color: #006010;
+}
+.spoiler blockquote blockquote blockquote:hover
+{
+	color: #004010;
+}
+.fileblock
+{
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+}
+.NavHorizontal
+{
+    margin: 0.2em 0.2em 0.2em 0.2em;
+}

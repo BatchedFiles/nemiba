@@ -1,0 +1,345 @@
+﻿/* Общее содержимое */
+html, body
+{
+	background-color: #EEEEEE;
+	color: #333333;
+	font-family: sans-serif;
+}
+h1
+{
+	color: #FF6600;
+	font-weight: bold;
+}
+h3
+{
+	
+}
+hr
+{
+	border-color: #BBBBBB;
+	display: block;
+	margin: 1em 0 1em 0;
+}
+rect
+{
+	stroke: black;
+	stroke-width: 3;
+	border-radius: 5;
+}
+div.aside
+{
+	float: left;
+	display: inline-block;
+	position: fixed;
+	height: 100%;
+	padding: .25em;
+	margin: .25em .25em .25em .25em;
+	background: #e6e6e6;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+div.article
+{
+	margin-left: 13em;
+}
+div.mnuHorizontal
+{
+}
+ul.navvertical /* Вертикальное меню, которое слева */
+{
+    list-style-type: none;
+    padding: 0.25em 0 0.25em 0;
+    margin: 0.25em 0 0.25em 0;
+}
+ul.navvertical li /* Пункт внутри вертикального меню */
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0.25em 0 0.25em 0;
+}
+ul.navvertical li ul /* Меню внутри пункта вертикального меню */
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navhorizontal /* Горизонтальное меню, которое справа */
+{
+	background: #DDDDDD;
+	text-align: center;
+	padding: .25em;
+	margin: .25em;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+p.footer
+{
+	text-align: center;
+	font-size: smaller;
+}
+
+/* Виды ссылок */
+a
+{
+	color: #FF6600;
+}
+a:hover
+{
+	color: #0066FF;
+}
+a.externallink
+{
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.reflink a:hover
+{
+	color: #800000;
+}
+
+/* Блок создания треда */
+div.theader /* Заголовок треда */
+{
+	background: #DDDDDD;
+	text-align: center;
+	padding: .25em;
+	margin: .25em;
+	color: #2266AA;
+	font-weight: bold;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+div.postarea /* Область с формами */
+{
+	text-align: left;
+	background: #e6e6e6;
+	padding: .5em 0.25em 0.5em 0.25em;
+	margin: .5em 0.25em 0.5em 0.25em;
+	border: solid 1px #CCCCCC;
+	border-radius: 0.25em;
+}
+div.postblock /* Ячейка описания форм */
+{
+	color: #002244;
+	font-weight: bold;
+	padding: 0.25em 0 0.25em 0;
+	margin: 0.25em 0 0.25em 0;
+	display: inline-block;
+	width: 8em;
+}
+div.postbuttons /* Ячейка с формами */
+{
+	padding: 0.25em 0 0.25em 0;
+	margin: 0.25em 0 0.25em 0;
+	display: inline-block;
+}
+div.usernamemustbeempty /* Текст «Оставить имя пользователя пустым» */
+{
+    display: inline-block;
+}
+ul.rules
+{
+	font-size: smaller;
+}
+
+/* Капча */
+div.captcha
+{
+	display: inline-block;
+}
+div.captchaimage /* Картинка */
+{
+	display: block;
+}
+div.captchainputtext /* Поле для ввода символов */
+{
+	display: block;
+}
+
+/* Заголовки сообщения */
+div.thread /* Тред */
+{
+	margin: 0.5em 0 0.5em 0;
+}
+div.oppost /* Первое сообщение в треде */
+{
+	display: table;
+	margin: 0.5em 0.25em 0.5em 0.25em;
+}
+div.reply /* Ответ */
+{
+	display: table;
+	background: #DDDDDD;
+	border: solid 1px #CCCCCC;
+	padding: 0;
+	margin: 0.5em 0.25em 0.5em 0.25em;
+	border-radius: 0.25em;
+}
+div.msghead /* Заголовок комментария */
+{
+}
+div.fileblock /* Блок с файлами */
+{
+	display: inline-block;
+	margin-right: 1em;
+	vertical-align: top;
+	float: left;
+}
+div.msgbody /* Комментарий */
+{
+	display: inline;
+}
+div.answers /* Блок с ответами на сообщение */
+{
+	display: block;
+	padding: 0.25em 0.25em 0.25em 0.25em;
+}
+a.reflink
+{
+	font-size: smaller;
+}
+span.filesize
+{
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-size: smaller;
+}
+span.filetitle
+{
+	font-size: larger;
+	color: #002244;
+	font-weight: bold;
+}
+span.replytitle
+{
+	font-size: larger;
+	color: #002244;
+	font-weight: bold;
+}
+span.postername
+{
+	
+}
+span.commentpostername
+{
+	
+}
+span.postertrip
+{
+	color: #228854;
+}
+div.omittedposts
+{
+	color: #666666;
+	font-size: smaller;
+	margin: 0.5em 1em 0.5em 1em;
+}
+span.thumbnailmsg
+{
+	display: block;
+	font-size: smaller;
+	color: #666666;
+}
+
+/* Форматирование текста в сообщении */
+span.spoiler
+{
+	color: black;
+	background-color: black;
+}
+span.monospace
+{
+	font-family: monospace;
+}
+span.underline
+{
+	text-decoration: underline;
+}
+span.strike
+{
+	text-decoration: line-through;
+}
+span.italic
+{
+	font-style: italic;
+}
+span.bold
+{
+	font-weight: bold;
+}
+span.unkfunc
+{
+	background: inherit;
+	color: #789922;
+}
+
+/* Исходный код */
+div.codebox
+{
+	padding: 3px;
+	border: 1px solid;
+}
+div.codebox div
+{
+	overflow: auto;
+	border-bottom: 1px solid;
+	margin-bottom: 3px;
+	font-weight: bold;
+} 
+div.codebox code
+{
+    display: block;
+	overflow: auto;
+	max-height: 15em;
+	padding-top: 0.25em;
+	margin: 0.1em;
+}
+
+/* Блок навигации и удаления тредов */
+div.navigationanddelete
+{
+}
+div.navigatorblock
+{
+}
+div.pagenavigator
+{
+}
+div.userdelete
+{
+	text-align: right;
+}
+
+/* Стиль для печати */
+@media print
+{
+    div.msghead /* Заголовок сообщения */
+    {
+        display: none;
+    }
+}
+
+/* Стиль для мелкоэкранных устройств */
+@media screen and (max-width: 480px)
+{
+    .navhorbrakets
+    {
+    	display: none;
+    }
+    .navhorizontal /* Горизонтальное меню, которое справа */
+    {
+    	margin: 0.5em 0.25em 0.5em 0.25em;
+    	display: block;
+        background: #DDDDDD;
+        text-align: center;
+        padding: .25em;
+        margin: .25em;
+        border: solid 1px #CCCCCC;
+        border-radius: 0.25em;
+    }
+   div.usernamemustbeempty /* Текст «Оставить имя пользователя пустым» */
+    {
+        display: block;
+    }
+}

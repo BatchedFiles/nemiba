@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd"[
+	<!ENTITY nbsp "&#160;">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<%@ Master Language="VB" CodeFile="~/masterpage.master.vb" Inherits="MasterPage" %>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+	<form runat="server" enctype="multipart/form-data">
+            <%-- Вертикальное меню (то, что слева) --%>
+			<div class="aside" runat="server" ID="mnuLeft" Visible="false">
+				<asp:HyperLink runat="server" NavigateUrl="~/" Text="<%$ AppSettings: DefaultLinkText %>"></asp:HyperLink>
+			</div>
+
+			<div id="Article" runat="server">
+
+				<div class="mnuHorizontal">
+				    <%-- Горизонтальное меню --%>
+                    <asp:PlaceHolder ID="mnuHorizontal" runat="server"></asp:PlaceHolder>
+                    <%--Меню на глагне--%>
+				    <span class="navhorbrakets">[ </span><a href="~/" runat="server" class="navhorizontal">Глагне</a><span class="navhorbrakets"> | </span><a runat="server" href="~/settings.aspx" class="navhorizontal">Настройки</a>
+				
+                    <%-- Ссылка на вход в систему --%>
+                    <asp:LoginView runat="server" Visible="<%$ AppSettings: EnableLoginLink %>">
+				        <AnonymousTemplate>
+				         <span class="navhorbrakets">  | </span><asp:LoginStatus runat="server" CssClass="navhorizontal" />
+				        </AnonymousTemplate>
+				    </asp:LoginView>
+				    <asp:LoginView runat="server">
+				        <LoggedInTemplate>
+				          <span class="navhorbrakets"> | </span><asp:LoginStatus runat="server" CssClass="navhorizontal" />
+				        </LoggedInTemplate>
+				    </asp:LoginView><span class="navhorbrakets"> ]</span>
+				</div>
+
+                <%--Содержимое сайта--%>
+				<asp:ContentPlaceHolder ID="cont" runat="server" />
+
+                <%--Подвал со ссылками--%>
+                <asp:literal runat="server" Text="<%$ AppSettings: FooterTopText %>" />
+                <asp:literal runat="server" Text="<%$ AppSettings: FooterText %>" />
+                <asp:literal runat="server" Text="<%$ AppSettings: FooterBottomText %>" />
+             </div>
+
+	</form>
+</body>
+</html>

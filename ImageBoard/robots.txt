@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /settings.aspx
+Disallow: /CaptchaImage.aspx

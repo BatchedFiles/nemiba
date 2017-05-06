@@ -1,0 +1,354 @@
+.postarea
+{
+	text-align: center;
+}
+.postarea table
+{
+	margin: 0px auto;
+	text-align: left;
+}
+.thumb
+{
+	border: none;
+	float: left;
+	margin: 2px 20px;
+}
+.nothumb
+{
+	float: left;
+	border: 2px dashed #aaa;
+	text-align: center;
+	margin: 2px 20px;
+	padding: 1em 0.5em 1em 0.5em;
+}
+.reply blockquote, blockquote :last-child
+{
+	margin-bottom: 0em;
+}
+.reflink a
+{
+	color: inherit;
+	text-decoration: none;
+}
+.reflink a:hover
+{
+	color: #800000;
+}
+.reply .filesize
+{
+	margin-left: 20px;
+}
+.userdelete
+{
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+.replypage .replylink
+{
+	display: none;
+}
+.pagelist
+{
+	max-width: 600px;
+}
+.spoiler
+{
+	color: black;
+	background-color: black;
+}
+.monospace
+{
+	font-family: monospace;
+}
+.underline
+{
+	text-decoration: underline;
+}
+.strike
+{
+	text-decoration: line-through;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.blockquote
+{
+	margin: 2px 20px;
+}
+.postblock
+{
+	font-weight: bold;
+}
+.logo
+{
+	font-weight: bold;
+}
+.externallink
+{
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 11px;
+}
+dl.codebox
+{
+	padding: 3px;
+	border: 1px solid;
+}
+dl.codebox dt
+{
+	border-bottom: 1px solid;
+	margin-bottom: 3px;
+	font-weight: bold;
+	display: block;
+}
+dl.codebox code
+{
+	overflow: auto;
+	display: block;
+	height: auto;
+	max-height: 200px;
+	white-space: normal;
+	padding-top: 5px;
+	margin: 2px 0;
+}
+td.topvalign
+{
+	vertical-align: top;
+}
+.footer
+{
+	text-align: center;
+	font-size: smaller;
+}
+h3
+{
+	text-align: right;
+}
+rect
+{
+	stroke:black;
+	stroke-width:3;
+	border-radius: 5;
+}
+td.aside
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    padding: 10px;
+}
+td.article
+{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+}
+td.baseline
+{
+	vertical-align:bottom;
+}
+html, body
+{
+	background: #EDDAD2;
+	color: #000000;
+	font-family: sans-serif;
+}
+#head
+{
+	background-color: #E6CBC0;
+	border: solid 1px #CA927B;
+	border-radius: 5px;
+	height: 50px;
+}
+#headlinks a
+{
+	border-left: dashed #CA927B 2px;
+	padding: 15px;
+}
+input, textarea, select
+{
+	background-color: #E6CBC0;
+	border: 1px solid #CA927B;
+}
+a
+{
+	color: #34345C;
+}
+a:visited
+{
+	color: #34345C;
+}
+a:hover
+{
+	color: #DD0000;
+}
+a.quotelink
+{
+	background: inherit;
+	color: #DD0000;
+}
+.logo
+{
+	background: inherit;
+	color: #AF0A0F;
+	font-size: larger;
+}
+.postarea
+{
+	background: inherit;
+}
+.postblock
+{
+	background: #D9AF9E;
+	border: 1px solid #CA927B;
+	color: black;
+	padding: 2px 5px 2px 5px;
+}
+.unkfunc
+{
+	color: #AF0A0F;
+}
+.filesize
+{
+	text-decoration: none;
+}
+.filetitle
+{
+	background: inherit;
+	color: #0F0C5D;
+	font-weight: 800;
+}
+.postername
+{
+	background: inherit;
+	font-size: smaller;
+	color: #117743;
+	font-weight: bold;
+}
+.postertrip
+{
+	background: inherit;
+	color: #228854;
+}
+.oldpost
+{
+	background: inherit;
+	color: #0F0C5D;
+	font-weight: 800;
+}
+.omittedposts
+{
+	background: inherit;
+	color: #070707;
+}
+.reply, .theader, .passvalid
+{
+	background: #D9AF9E;
+	color: #000000;
+	border: 1px solid #CA927B;
+}
+.theader, .dellist
+{
+	text-align: center;
+}
+.replyhl
+{
+	background: #D6BAD0;
+	color: #000000;
+}
+.doubledash
+{
+	vertical-align: top;
+	clear: both;
+	float: left;
+}
+.replytitle
+{
+	background: inherit;
+	font-size: larger;
+	color: #0F0C5D;
+	font-weight: 800;
+}
+.commentpostername
+{
+	background: inherit;
+	font-size: smaller;
+	color: #117743;
+	font-weight: bold;
+}
+a.quotejs
+{
+	color: #000000;
+	text-decoration: none;
+}
+a.quotejs:hover
+{
+	font-weight: bold;
+}
+.adminbar
+{
+	text-align: right;
+	background: inherit;
+	clear: both;
+	float: right;
+}
+span.spoiler
+{
+	background: #CA927B;
+	color: #CA927B;
+}
+span.spoiler:hover
+{
+	background: #CA927B;
+	color: #000000;
+}
+.row1
+{
+	background: #E6CBC0;
+}
+.row2
+{
+	background: #D9AF9E;
+}
+code
+{
+	font-family: monospace;
+}
+span.mod
+{
+	color: #AF0A0F;
+	font-size: small;
+}
+.highlight
+{
+	border: 2px dashed #AF0A0F;
+}
+span.adm
+{
+	color: #800080;
+}
+.filesize img[alt="edit"]
+{
+	border: 0 none;
+}
+.fileblock
+{
+    display: inline-block;
+    float: left;
+    margin-right: 1em;
+}
+.NavHorizontal
+{
+    margin: 0.2em 0.2em 0.2em 0.2em;
+}
